@@ -1,0 +1,38 @@
+todo will be able to operate on a list of tasks
+such tasks can be added, deleted, and completed.
+
+optional timestamp for running tasks
+optional project/tag sorting
+
+functions:
+	display tasks
+		open file
+		read and print tasks
+	add task
+		open file
+		append new task to end
+	delete task
+		open file
+		find and remove specified task
+	complete task
+		open file
+		find and modify task contents
+	reset task
+		same as complete
+	tag task
+		???
+	sort tasks
+		open file
+		sort tasks by desired attribute
+	sub task
+		no clue how to implement
+		idea for tagging?
+	
+todo:
+	learn file io
+	implement data scheme
+		name:status
+
+general flow:
+	open task file
+	parse and display tasks
